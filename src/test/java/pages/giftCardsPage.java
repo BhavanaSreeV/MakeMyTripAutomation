@@ -20,7 +20,7 @@ public class giftCardsPage {
 	public void selectCard() throws InterruptedException {
 		   Thread.sleep(3000);
 		   JavascriptExecutor js=(JavascriptExecutor) driver;
-		   js.executeScript("arguments[0].scrollIntoView()",driver.findElement(By.xpath("//*[@id=\"top-banner\"]/div[2]/div/div[1]/div[2]/div[2]/div[3]/ul/li[1]/div/div/h3")));
+		   js.executeScript("arguments[0].scrollIntoView()",driver.findElement(By.xpath("//img[@src="https://promos.makemytrip.com/appfest/2x/580x346-BestWishes-2.png"]")));
 		   Thread.sleep(3000);
 		    giftCard.click();    
 	}
