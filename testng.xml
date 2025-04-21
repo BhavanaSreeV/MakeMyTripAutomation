@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+        <listener class-name="pages.AutomationReport"></listener>
+    </listeners>
+  <test  name="Test">
+    <classes>
+      <class name="testNGTests.homePageTest"/>
+      <class name="testNGTests.oneWayCabSearchTest"/>
+      <class name="testNGTests.giftCardsPageTest"/>
+      <class name="testNGTests.cardDetailsTest"/>
+       <class name="testNGTests.noOfAdultsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

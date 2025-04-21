@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-21T09:13:35 IST" name="Suite" finished-at="2025-04-21T09:14:57 IST" duration-ms="82826">
+    <groups>
+    </groups>
+    <test started-at="2025-04-21T09:13:35 IST" name="Test" finished-at="2025-04-21T09:14:57 IST" duration-ms="82826">
+      <class name="testNGTests.homePageTest">
+        <test-method signature="closePopUp()[pri:0, instance:testNGTests.homePageTest@48a12036]" started-at="2025-04-21T09:13:36 IST" name="closePopUp" finished-at="2025-04-21T09:13:39 IST" duration-ms="3413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUp -->
+      </class> <!-- testNGTests.homePageTest -->
+      <class name="testNGTests.oneWayCabSearchTest">
+        <test-method signature="sourceSelection()[pri:1, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:13:39 IST" name="sourceSelection" finished-at="2025-04-21T09:13:44 IST" duration-ms="4575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sourceSelection -->
+        <test-method signature="destinationSelection()[pri:2, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:13:44 IST" name="destinationSelection" finished-at="2025-04-21T09:13:47 IST" depends-on-methods="testNGTests.oneWayCabSearchTest.sourceSelection" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destinationSelection -->
+        <test-method signature="departure()[pri:3, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:13:47 IST" name="departure" finished-at="2025-04-21T09:13:49 IST" depends-on-methods="testNGTests.oneWayCabSearchTest.destinationSelection" duration-ms="1952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departure -->
+        <test-method signature="pickUp()[pri:4, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:13:49 IST" name="pickUp" finished-at="2025-04-21T09:14:02 IST" depends-on-methods="testNGTests.oneWayCabSearchTest.departure" duration-ms="13144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickUp -->
+        <test-method signature="filters()[pri:5, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:14:02 IST" name="filters" finished-at="2025-04-21T09:14:09 IST" depends-on-methods="testNGTests.oneWayCabSearchTest.pickUp" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filters -->
+        <test-method signature="lowestPrices()[pri:6, instance:testNGTests.oneWayCabSearchTest@62f68dff]" started-at="2025-04-21T09:14:09 IST" name="lowestPrices" finished-at="2025-04-21T09:14:43 IST" depends-on-methods="testNGTests.oneWayCabSearchTest.filters" duration-ms="34095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lowestPrices -->
+      </class> <!-- testNGTests.oneWayCabSearchTest -->
+      <class name="testNGTests.noOfAdultsTest">
+        <test-method signature="sourceSelection()[pri:1, instance:testNGTests.noOfAdultsTest@5c153b9e]" started-at="2025-04-21T09:14:53 IST" name="sourceSelection" finished-at="2025-04-21T09:14:57 IST" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sourceSelection -->
+      </class> <!-- testNGTests.noOfAdultsTest -->
+      <class name="testNGTests.cardDetailsTest">
+        <test-method signature="customerDetails()[pri:0, instance:testNGTests.cardDetailsTest@4bc28c33]" started-at="2025-04-21T09:14:49 IST" name="customerDetails" finished-at="2025-04-21T09:14:52 IST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerDetails -->
+        <test-method signature="senderDetails()[pri:1, instance:testNGTests.cardDetailsTest@4bc28c33]" started-at="2025-04-21T09:14:52 IST" name="senderDetails" finished-at="2025-04-21T09:14:53 IST" depends-on-methods="testNGTests.cardDetailsTest.customerDetails" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senderDetails -->
+      </class> <!-- testNGTests.cardDetailsTest -->
+      <class name="testNGTests.giftCardsPageTest">
+        <test-method signature="selection()[pri:0, instance:testNGTests.giftCardsPageTest@13f17eb4]" started-at="2025-04-21T09:14:43 IST" name="selection" finished-at="2025-04-21T09:14:49 IST" duration-ms="6385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selection -->
+      </class> <!-- testNGTests.giftCardsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
